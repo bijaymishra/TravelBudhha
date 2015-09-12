@@ -1,0 +1,52 @@
+﻿ <ion-side-menu side="right">
+     
+      <ion-header-bar align-title="left" class="bar-dark">
+  <div class="buttons">
+    <button class="button" ng-click="doSomething()">Reset</button>
+  </div>
+  <h1 class="title">Filter</h1>
+  <div class="buttons">
+    <button class="button" ng-click="toggleLeftSideMenu();">Apply</button>
+  </div>
+</ion-header-bar>
+  <ion-content class="has-header">
+        <ul class="list">
+         
+          <a  nav-clear class="item" ng-click="toggleLeft()">Chat</a>
+          <a  nav-clear class="item" ng-click="toggleLeft()">Drink</a>
+           <a ui-sref="side-item" ng-click="toggleDrawer()">Link to second level</a>
+        </ul>
+
+        
+      </ion-content>
+    </ion-side-menu>
+  
+     <drawer side="right" ng-click="toggleDrawer()">
+      <ion-header-bar align-title="center">
+  <h1 class="title">Select City</h1>
+</ion-header-bar>
+<ion-content>
+  <ion-list class="bet-type-list">
+    <ion-item>City 1</ion-item>
+    <ion-item>City 2</ion-item>
+    <ion-item>City 3</ion-item>
+    <ion-item>City 4</ion-item>
+    <ion-item>City 5</ion-item>
+    <ion-item>City 3</ion-item>
+    <ion-item>City 4</ion-item>
+    <ion-item>City 5</ion-item>
+    <ion-item>City 5</ion-item>
+    <ion-item>City 3</ion-item>
+    <ion-item>City 4</ion-item>
+    <ion-item>City 5</ion-item>
+    <ion-item>City 5</ion-item>
+    <ion-item>City 3</ion-item>
+    <ion-item>City 4</ion-item>
+    <ion-item>City 5</ion-item>
+</ion-content>
+  
+    </drawer>
+      
+    
+ 
+    

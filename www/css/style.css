@@ -1,0 +1,984 @@
+/* Empty. Add your own CSS if you like */
+
+/*------------Icons start--------------*/
+@charset "UTF-8";
+
+@font-face {
+  font-family: "font-2";
+  src:url("../fonts/font-2.eot");
+  src:url("../fonts/font-2.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/font-2.woff") format("woff"),
+    url("../fonts/font-2.ttf") format("truetype"),
+    url("../fonts/font-2.svg#font-2") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "font-2" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "font-2" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+  content: "a";
+}
+.icon-wall:before {
+  content: "b";
+}
+.icon-add-message:before {
+  content: "d";
+}
+.icon-book:before {
+  content: "e";
+}
+.icon-chat:before {
+  content: "f";
+}
+.icon-chef:before {
+  content: "c";
+}
+.icon-close:before {
+  content: "g";
+}
+.icon-code:before {
+  content: "h";
+}
+.icon-cotraveler:before {
+  content: "j";
+}
+.icon-follow:before {
+  content: "l";
+}
+.icon-home:before {
+  content: "m";
+}
+.icon-instagram:before {
+  content: "n";
+}
+.icon-like:before {
+  content: "o";
+}
+.icon-likefilled:before {
+  content: "p";
+}
+.icon-locator:before {
+  content: "r";
+}
+.icon-map:before {
+  content: "s";
+}
+.icon-message:before {
+  content: "q";
+}
+.icon-pictures:before {
+  content: "t";
+}
+.icon-pin-people:before {
+  content: "v";
+}
+.icon-rating:before {
+  content: "w";
+}
+.icon-search:before {`
+  content: "u";
+}
+.icon-search1:before {
+  content: "x";
+}
+.icon-settings:before {
+  content: "y";
+}
+.icon-timeline:before {
+  content: "i";
+}
+.icon-twitter:before {
+  content: "z";
+}
+.icon-filter:before {
+  content: "k";
+}
+.icon-filter-1:before {
+  content: "A";
+}
+.button .icon {
+	color: #ffffff;
+}
+.bar-header .back-button {
+    background: url("../img/back-bttn.png") no-repeat center left !important;
+    background-size: contain !important;
+    border: 0;
+    height: 21px;
+    position: absolute;
+    width: 21px;
+    margin-top: 3px;
+}
+.signup_header span.back_button {
+    display: inline-block;
+    width: 8%;
+    height: 34px;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url("../img/back_btn.png");
+    background-size: 11px 30px;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    background-position: 8px 0px;
+}
+.signup_header {
+    padding-top: 20px;
+}
+.or {
+    margin: 10px 0;
+}
+.or span:first-child, .or span:last-child {
+    display: inline-block;
+    width: 45%;
+    height: 0px;
+    border-bottom: 1px solid #7888A0;
+    vertical-align: middle;
+}
+.or span:nth-child(2) {
+    /* margin: 0px 10px; */
+    color: #3C5898;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    width: 9%;
+    text-align: center;
+}
+.signup_header span.back_button {
+    display: inline-block;
+    width: 8%;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+.signup_header span.heading {
+    width: 92%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 15px;
+}
+.bar-header .button.back-button {
+    opacity: 1;
+}
+.bar .left-buttons .ion-navicon {
+    height: 38px;
+}
+.bar-header .back-button .back-text,
+.bar-header .back-button .icon {
+    display: none;
+}
+.tabs-striped .tab-item.tab-item-active, .tabs-striped .tab-item.active, .tabs-striped .tab-item.activated {
+    margin-top: -2px;
+    border: none;
+    /* border-width: 2px 0 0 0; */
+    /* border-color: #444; */
+}
+.bar .title.title-left{
+  text-align: center;
+}
+
+.bar .button.close-button{
+    background-color: transparent;
+    border: navajowhite;
+    font-size: 14px;
+    font-style: normal;
+    /* font-family: initial; */
+    color: #000;
+    font-weight: 500;
+    padding: 2px 20px;
+    }
+.bar .button.post-button{
+     background-color: transparent;
+    border: navajowhite;
+    font-size: 14px;
+    font-style: normal;
+    /* font-family: initial; */
+    color: #fff;
+    font-weight: 500;
+    padding: 2px 20px;
+    
+}
+
+/*------ Icons End ----------*/
+/*------Font start-----*/
+@font-face {
+  font-family: "HelveticaStd";
+  src:url("../fonts/HelveticaNeueLTStd-Lt.otf");
+  /*src:url("../fonts/font-2.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/font-2.woff") format("woff"),
+    url("../fonts/font-2.ttf") format("truetype"),
+    url("../fonts/font-2.svg#font-2") format("svg");*/
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: "HelveticaHeading";
+  src:url("../fonts/HelveticaNeueLTStd-MdCn.otf");
+  /*src:url("../fonts/font-2.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/font-2.woff") format("woff"),
+    url("../fonts/font-2.ttf") format("truetype"),
+    url("../fonts/font-2.svg#font-2") format("svg");*/
+  font-weight: normal;
+  font-style: normal;
+
+}
+body{
+  font-family: "HelveticaStd";
+}
+ion-header-bar{
+  font-family: "HelveticaHeading"
+}
+.HelveticaBody{
+  font-family: "HelveticaStd";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+}
+.HelveticaHeading{
+  font-family: "HelveticaHeading";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*-----font end------*/
+/*------ Main Dashboard Start -----*/
+.myThemeColor{
+  background-color: #92B737 !important;
+}
+.myTabStyle > .tabs{
+    background-color: #92B737;
+}
+.tab-item .icon {
+    margin: 5px 34% 0 28%;
+    height: 100%;
+    color: #FFFFFF;
+    margin-top:-3px !important; 
+}
+.tab-item {
+    opacity: 1;
+}
+.tab-item-active .icon{
+    border-bottom:3px solid #ffffff;
+}
+.bar-header{
+    background-color: #92B737;
+}
+.bar .title {
+    color: #ffffff;
+}
+/*------ Main Dashboard End -----*/
+/*--------- Profile Start-----------*/
+.profile_header span.heading {
+    width: 92%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    padding-top: 15px;
+    font-weight: 600;
+}
+.profile_header span.back_button {
+    display: inline-block;
+    width: 8%;
+    height: 29px;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url("../img/back-bttn.png");
+    background-size: 16px 29px;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    background-position: 8px 0px;
+}
+.Profile-highlight {
+    margin-top: -14%;
+    position: relative;
+}
+.Profile-highlight ul li {
+    float: left;
+    margin-left: 2%;
+    margin-right: 10%;
+    text-align: left;
+  }
+.Profile-highlight ul li:last-child {
+    float: right;
+    margin-right: 4%;
+    text-align: right;
+}
+.Profile-highlight ul li label:first-child {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.Profile-highlight ul li label:last-child {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+label.invite-code {
+    float: right;
+    padding: 2% 4%;
+    color: #8D8DAB;
+    font-size: 12px;
+}
+.profile-content p {
+    margin: 80px 20px 20px 20px;
+    font-size: 14px;
+    font-style: normal;
+    color: #666;
+}
+.profile-links {
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.profile-links a:first-child {
+    color: #92B737;
+    text-decoration: none;
+    float: left;
+}
+
+.profile-links a:last-child {
+    color: #92B737;
+    text-decoration: none;
+    float: right;
+}
+
+/*-------- Profile ends -----------*/
+/*------ Signup start -----*/
+.signup .bar-transparent {
+    background-color: #E0E2E7;
+    border: 0;
+    background-image: none;
+    background-size: 100% 0;
+    color: #000;
+}
+.signup .bar .title {
+    color: #000;
+}
+.signup .button .icon {
+    color: #000;
+} 
+.signup input[type="text"]{
+border: 1px solid rgba(102, 102, 102, 0.45);
+    height: 41px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    width: 100%;
+  }
+ .button-facebook {
+    border-radius: 0px;
+    -moz-box-shadow: inset 0 1px 0 0 #5f7aaf;
+    -webkit-box-shadow: inset 0 1px 0 0 #5f7aaf;
+    box-shadow: inset 0 1px 0 0 #5f7aaf;
+    background-color: #2b4170;
+    /* fallback color */
+    
+    background: -moz-linear-gradient(top, #4e6ba5, #2e4886);
+    background: -ms-linear-gradient(top, #4e6ba5, #2e4886);
+    background: -webkit-linear-gradient(top, #4e6ba5, #2e4886);
+    border: 1px solid #375492;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+button.button-facebook.ion-social-facebook:before {
+    content: "\f231";
+    float: left;
+    font-size: 42px;
+}
+.signup .button-signup {
+    border-radius: 2px;
+    -moz-box-shadow: outset 0 1px 0 0 #5f7aaf;
+    -webkit-box-shadow: outset 0 1px 0 0 #666;
+    box-shadow: 0px 4px 1px 4px #eee;
+    background-color: #FFF;
+    background: -moz-linear-gradient(top, #4e6ba5, #2e4886);
+    background: -ms-linear-gradient(top, #4e6ba5, #2e4886);
+    background: -webkit-linear-gradient(top, #FFF, #fff);
+    border: 1px;
+    border-style: outset;
+    color: #666;
+    line-height: 1.13;
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+    margin: 0 5%;
+}
+.signup .bar-transparent{
+
+}
+ .signup .item{
+  color: #666;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+ }
+
+ .signup .sign-up {
+    color: #92B737;
+}
+/*------ signup End -----*/
+
+/*------ Main local Home Chef Start -----*/
+
+
+.item-icon-right .icon {
+    right: 10px;
+    color: #5C6652;
+    font-size: 20px;
+}
+ .item p{
+     overflow: hidden;
+    text-overflow: initial;
+    white-space: initial;
+}
+.invite_container, .home_container, .signup_container{
+  background-image: url("../img/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.home_container .item p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.home_container .item h2 {
+    font-size: 14px;
+    font-weight: bold;
+}
+.home_container .item h3 {
+    margin: 0 0 4px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+/*------ Main local Home Chef End -----*/
+
+/*-------Invite Page Start------*/
+.invite_container .scroll {
+    height: 100%;
+}
+.buddha_icon_container {
+    height: 45%;
+    padding-top:15%;
+}
+.invite_container .buddha_icon_container {
+    height: 60%;
+    padding-top:15%;
+}
+.buddha_icon_container img {
+    margin: 0 auto;
+    display: block;
+    height: 100%
+}
+.invite_box {
+    width: 100%;
+    padding: 10px;
+}
+.invite_box label {
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #7888A0;
+}
+.invite_box input[type="text"] {
+    margin: 15px 2%;
+    width: 96%;
+    border: 1px solid silver;
+    background-color: transparent;
+}
+.invite_box span {
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    line-height: 20px;
+    color: gray;
+}
+.invite_box button {
+    text-transform: uppercase;
+    float: right;
+    color: #7888A0;
+    margin-top: 10%;
+}
+.clearfix:after{
+  content: ""
+  display:block;
+  clear: both;
+}
+.invite_box button {
+    text-transform: uppercase;
+    float: right;
+    color: #7888A0;
+    margin-top: 15px;
+}
+/*-------Invite Page End--------*/
+/*------ Login start -----*/
+.login .card, .list-inset {
+    overflow: hidden;
+    margin: 0px auto;
+    border-radius: 2px;
+    background-color:transparent;
+}
+.login label.item.item-input{
+  background-color: transparent;
+}
+.button.myTabStyle {
+    background-color: #92B737;
+    font-size: 20px;
+    width: 100%;
+    color: #fff;
+    
+}
+.bold{
+  float: right;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #776F6F;
+}
+.invite_container.login .buddha_icon_container {
+    height: 45%;
+    padding-top:15%;
+}
+/*------ Login End -----*/
+/*------ Message start -----*/
+
+.message .item-thumbnail-left > img{
+      background: black;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+.time{
+    float: right;
+    position: relative;
+    top: -24px;
+    color: #666;
+    font-size: 14px;
+
+}
+
+/*------ message End -----*/
+/*------ the wall filter starts -----*/
+.wallfilter li {
+    border-top: 1px dotted #9299A7;
+    background-color: transparent;
+    border-bottom: 1px dotted #9299A7;
+}
+.wallfilter .checkbox input, .checkbox-icon{
+  float: right;
+  margin-right: -14px;
+}
+.bar-filter{
+  background-color: rgb(61, 69, 83);
+}
+.bar-filter .title{
+  margin-top: 5px; 
+}
+.wallfilter .item {
+    border-left: none;
+    border-right: none;
+}
+.wallfilter ul{
+  margin: 20px; 
+  color: #666;
+}
+.wallfilter .item-checkbox {
+    padding-left: 0px;
+    font-size: 14px;
+    color: rgb(163, 174, 190);
+  }
+
+button.filter-button {
+    background-color: transparent;
+    border: navajowhite;
+    font-size: 12px;
+    font-style: normal;
+    font-family: initial;
+    color: #fff;
+    margin-top: 10px;
+    padding: 0px 10px;
+    
+}
+.button.button-icon.icon-filter{
+    vertical-align: middle;
+    font-size: 26px;
+    line-height: 26px; 
+}
+.add_post {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid #92B737;
+}
+.img_box {
+    height: 98px;
+    width: 30%;
+    float: left;
+}
+.img_box img {
+    width: 100%;
+    height: 100%;
+}
+.details_box {
+    width: 70%;
+    float: left;
+}
+.details_box label.item.item-input {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    padding: 10px 0px 10px 5px;
+}
+.details_box input[type="text"] {
+    padding-left: 5%;
+}
+.post_buttons {
+    padding: 10px 5% 10px 5%;
+}
+.post_buttons span.ion-camera {
+    font-size: 24px;
+    color: #C5C5C5;
+    margin: 0 4%;
+}
+span.ion-ios-location {
+    font-size: 12px;
+    color: #C5C5C5;
+    margin-left: 5%;
+}
+span.ion-ios-location:before {
+    font-size: 24px;
+    margin-right: 5px;
+}
+.theWall.icon-filter:before{
+    vertical-align: middle;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+/* wall Modal code*/
+.wallModal div.add_post {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-bottom: none;
+    top: 44px;
+    position: relative;
+}
+.wallModal .details_box {
+  padding-top: 28px;
+}
+/*------ The wall filter End -----*/
+/*------ People Near Me Starts -----*/
+.peopleNearMe li.slider-slide-tab.ng-binding {
+    margin: 0 6%;
+    padding: 0px 0px;
+    width: 21%;
+    
+}
+/*------ People Near Me Ends -----*/
+/*------ Fevorite Starts -----*/
+.fevorite li.slider-slide-tab.ng-binding {
+    margin: 0;
+}
+/*------ Fevorite Ends -----*/
+/*-------Login Intro Start------------*/
+.loginInto_btn_container{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+}
+.loginInto_btn_container button.button-clear{
+  text-transform: uppercase;
+    float: left;
+    color: #000000;
+    font-size: 18px;
+    width: 50%;
+    padding: 0 20px;
+}
+.loginInto_btn_container button.signup{
+  text-align: left;
+}
+.loginInto_btn_container button.login{
+  text-align: right;
+}
+/*-------Login Intro End------------*/
+/*-------Home Start--------------*/
+.home_container .scroll{
+  height: 100%;
+}
+.home_button_container {
+    height: 50%;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.home_button_container .row  .title{
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    color: #606062;
+}
+.home_button_container .button-icon .icon:before{
+    font-size: 40px;
+    color: #606062;
+    display: block;
+    padding-bottom: 10px;
+}
+.home_button_container .row + .row {
+    margin-top: -7%;
+}
+.home_button_container .row{
+   height: 36%;
+}
+.home_button_container a.button-icon{
+  padding: 0;
+}
+.home_button_container .col{
+  text-align: center;
+  padding: 0px;
+}
+/*-------HOme End----------------*/
+
+
+/*------ Notification start -----*/
+.comenters label>img{
+  height: 40px;
+  width: 40px;
+  background-color: #000;
+  border-radius: 5px;
+}
+.comenters label{
+   padding-right: 5px;
+}
+.dark-14{
+  font-size: 14px;
+  color: #000;
+}
+.post-title{
+  font-size: 12px;
+  color: #666;
+}
+.notification .item-thumbnail-left{
+  padding-left:60px;
+  padding-bottom: 5px;
+}
+.notification .item-thumbnail-left [class*="icon-"]:before
+{
+    color: #000;
+    margin-left: -50px;
+    margin-top: 0px;
+    position: absolute;
+    padding: 0px;
+    font-size: 29px;
+}
+
+.notification .item-thumbnail-left [class*="ion-"]:before
+{
+    color: #000;
+    margin-left: -50px;
+    margin-top: 0px;
+    position: absolute;
+    padding: 0px;
+    font-size: 45px;
+}
+.notification .comenters+p {
+    font-size: 12px;
+    margin: 10px 0px;
+    color: black;
+}
+/*------ Notification End -----*/
+/*------Find co traveller -----*/
+.tb_filter.icon-filter:before{
+    vertical-align: middle;
+    font-size: 26px;
+}
+.buttons-right .tb_filter.icon-filter:before {
+    vertical-align: middle;
+    font-size: 26px!important;
+}
+button.tb_search.ion-ios-search {
+    color: white;
+    width: 34px;
+    font-weight: bold;
+    padding-right: 50px;
+}
+.trip_container {
+    background-color: white;
+}
+.trip_container .trip_heading {
+    padding: 5px;
+    margin-bottom: 10px;
+ }
+ .trip_container .trip_name {
+    text-transform: uppercase;
+    font-size: 16px;
+    float: left;
+    width: 85%;
+}
+.trip_container span.small_text {
+    font-size: 12px;
+    padding: 0 5px;
+    text-transform: capitalize;
+    color: #868B93;
+    padding-left: 15px
+}
+.trip_container .trip_icon {
+    font-size: 24px;
+    vertical-align: top;
+    float: left;
+    width: 15%;
+    text-align: right;
+}
+.trip_container .details {
+    padding: 5px;
+    color: gray;
+    font-size: 12px;
+}
+.trip_container .details > div:first-child {
+    display: block;
+    float: left;
+    width: 80%;
+}
+.trip_container .details > div:last-child {
+    float: left;
+    width: 20%;
+    color: black;
+    font-size: 14px;
+    text-align: right;
+}
+.people_count{
+  padding: 5px;
+  color:gray;
+  font-size: 12px;
+}
+.trip_container .picItem {
+    width: 47.5%;
+    float: left;
+    margin-right: 5%;
+    position: relative;
+}
+.pic_container .picItem:last-child{
+  margin-right: 0;
+}
+.trip_container .pic_container {
+    width: 100%;
+    padding: 5px;
+}
+.pic_container img {
+    width: 100%;
+    height: 150px;
+}
+.picItem span.name ,.picItem span.age_sex{
+    font-size: 14px;
+    position: absolute;
+    top: 35%;
+    font-weight: bold;
+    color: white;
+    background-color: #92B737;
+    padding: 0 15px 0 5px;
+    line-height: 18px;
+    vertical-align: middle;
+}
+.picItem span.age_sex{
+  top: 50%;
+  font-weight: normal;
+  font-size: 12px;
+  line-height:16px;
+}
+.picItem .place_friends {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 100%;
+}
+.place_friends span {
+    width: 50%;
+    float: left;
+}
+.place_friends span:first-child {
+  text-align: left;
+}
+.place_friends span:last-child {
+  text-align: right;
+}
+.trip_container .description {
+    font-size: 12px;
+    color: gray;
+    padding: 5px;
+}
+.trip_container .description {
+    font-size: 12px;
+    color: gray;
+    line-height: 14px;
+    padding: 5px;
+}
+.description span.pickup {
+    display: block;
+    margin-top: 10px;
+}
+.trip_container {
+    background-color: white;
+    border-bottom: 2px solid silver;
+}
+.trip_container .contact_host_btn {
+    display: block;
+    color: #92B737;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+/*------End Find co traveller---*/
+
+
+/* Profile global start*/
+.profile {
+    width: 100%;
+    box-shadow: 0px -1px 0px 0px gray;
+}
+/* Profile global ends*/
+
+
+
+
+
+
+
+
